@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CameraX Privacy Policy</title>
+<meta name="description" content="Privacy policy for CameraX, an Android app that records video and audio on your device.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1b1f24;
+    --muted: #5b6572;
+    --line: #e3e6ea;
+    --accent: #1f5fbf;
+    --panel: #f2f6fc;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1318;
+      --text: #e7eaee;
+      --muted: #98a2af;
+      --line: #262d36;
+      --accent: #7fb0ff;
+      --panel: #151c26;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 3rem 1.25rem 4rem;
+  }
+  h1 {
+    font-size: 2.1rem;
+    line-height: 1.2;
+    margin: 0 0 .5rem;
+    letter-spacing: -0.01em;
+  }
+  h2 {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    margin: 2.75rem 0 .75rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+  }
+  p, ul { margin: 0 0 1rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: .4rem; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+  .meta { color: var(--muted); margin: 0; }
+  .summary {
+    background: var(--panel);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 1.1rem 1.4rem 0.6rem;
+    margin: 2rem 0 0;
+  }
+  .summary h2 {
+    font-size: 1.1rem;
+    margin: 0 0 .6rem;
+    padding: 0;
+    border: 0;
+  }
+  .table-wrap { overflow-x: auto; margin: 0 0 1rem; }
+  table { width: 100%; border-collapse: collapse; font-size: .95rem; min-width: 30rem; }
+  th, td { text-align: left; vertical-align: top; padding: .7rem .8rem .7rem 0; border-bottom: 1px solid var(--line); }
+  th { font-weight: 600; }
+  td:first-child { white-space: nowrap; font-weight: 600; padding-right: 1.25rem; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .95rem; }
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    h1 { font-size: 1.8rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>CameraX Privacy Policy</h1>
+  <p class="meta">Effective November 15, 2026</p>
+  <p class="meta">App: CameraX (com.projects.camerax) for Android</p>
+
+  <section class="summary" aria-labelledby="short">
+    <h2 id="short">The short version</h2>
+    <ul>
+      <li>Everything you record stays on your device.</li>
+      <li>CameraX has no accounts, no servers, no ads, and no analytics.</li>
+      <li>The app does not request internet access, so it has no way to upload your recordings.</li>
+      <li>A notification is always visible while the app is recording.</li>
+    </ul>
+  </section>
+
+  <h2 id="who">Who we are</h2>
+  <p>CameraX is developed and published by Utility App Agency (“we”, “us”). If you have questions about this policy, contact us at <a href="mailto:utilityappagency@gmail.com">utilityappagency@gmail.com</a>.</p>
+
+  <h2 id="what">What the app does</h2>
+  <p>CameraX records video and audio with your phone’s camera and microphone. Recording continues in the background, including when the screen is off, until you stop it or the auto-stop timer ends it. While recording, the app shows a notification that stays visible until recording stops.</p>
+
+  <h2 id="data">Information the app handles</h2>
+  <p>We do not collect, receive, or have access to any of this information. It is created and kept on your device.</p>
+  <ul>
+    <li><strong>Recordings.</strong> Video and audio files you create with the app. They are saved in the app’s private storage on your device.</li>
+    <li><strong>App settings.</strong> Your choices for video quality, file length, auto-stop time, camera (front or back), whether audio is recorded, and whether you have seen the first-launch notice. These are stored locally on your device.</li>
+  </ul>
+  <p>The app does not collect your name, email address, location, contacts, advertising ID, device identifiers, or usage data.</p>
+
+  <h2 id="permissions">Permissions and why the app asks for them</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Permission</th><th>Why it is needed</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Camera</td><td>To record video. Also used to turn the flashlight on and off while recording.</td></tr>
+        <tr><td>Microphone</td><td>To record audio with your video. You can turn audio off in Settings.</td></tr>
+        <tr><td>Notifications</td><td>To show the notification that tells you recording is in progress, and to tell you when recording has stopped.</td></tr>
+        <tr><td>Foreground service (camera and microphone)</td><td>To keep recording when you turn the screen off or switch to another app.</td></tr>
+        <tr><td>Wake lock</td><td>To keep the processor running so recording is not interrupted when the screen is off.</td></tr>
+        <tr><td>Storage (Android 9 and older only)</td><td>Only if you tap “Save” to copy a recording to your Gallery. Newer Android versions do not need this permission.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>You can withdraw any permission at any time in your phone’s system settings. The app cannot record without the camera and microphone permissions.</p>
+
+  <h2 id="storage">How recordings are stored and shared</h2>
+  <ul>
+    <li>Recordings are stored in the app’s private storage. Other apps cannot read them unless you share them.</li>
+    <li>If you tap <strong>Share</strong>, the recording is sent to the app you choose using Android’s share menu. That app’s own privacy policy applies from that point.</li>
+    <li>If you tap <strong>Save</strong>, a copy is placed in your device’s Movies/CameraX folder so it appears in your Gallery. Apps that have access to your photos and videos may be able to see that copy.</li>
+    <li>The app opts out of Android’s cloud backup, so recordings are not backed up through the app.</li>
+  </ul>
+
+  <h2 id="responsible">Using the app responsibly</h2>
+  <p>CameraX is designed to be visible: it always shows a recording notification and has no hidden or disguised mode. Laws about recording video and especially audio differ from place to place, and many require the consent of the people you record. You are responsible for following the laws where you use the app.</p>
+
+  <h2 id="third">Third parties</h2>
+  <p>CameraX contains no advertising, analytics, or tracking tools. It uses standard Android system components and Google’s open-source Jetpack libraries, which run entirely on your device. If you installed the app through Google Play, Google may process information about your installation under Google’s own privacy policy. We do not receive personal information from Google Play.</p>
+
+  <h2 id="retention">Keeping and deleting your data</h2>
+  <ul>
+    <li>Recordings stay on your device until you delete them. Use <strong>Delete</strong> in the Recordings screen to remove one.</li>
+    <li>Uninstalling the app removes all recordings and settings stored by the app.</li>
+    <li>A copy you saved to your Gallery is separate. It stays until you delete it from your Gallery or Files app.</li>
+  </ul>
+
+  <h2 id="security">Security</h2>
+  <p>Your recordings are protected by Android’s app sandbox. The app does not add its own encryption, so we recommend using a screen lock and keeping device encryption on, which is the default on modern Android devices.</p>
+
+  <h2 id="children">Children</h2>
+  <p>CameraX is not directed at children, and we do not knowingly collect personal information from anyone, including children.</p>
+
+  <h2 id="rights">Your rights</h2>
+  <p>Because we do not collect or receive your personal information, we hold no data about you to access, correct, export, or delete. Your recordings and settings are fully under your control on your device. If you believe we hold information about you, contact us and we will respond.</p>
+
+  <h2 id="changes">Changes to this policy</h2>
+  <p>We may update this policy, for example if the app gains new features. The effective date at the top shows when it was last changed. If a future version of the app changes how your information is handled, we will update this page before that version is released.</p>
+
+  <h2 id="contact">Contact</h2>
+  <p>Utility App Agency<br><a href="mailto:utilityappagency@gmail.com">utilityappagency@gmail.com</a></p>
+
+  <footer>
+    <p>© 2026 Utility App Agency</p>
+  </footer>
+
+</main>
+</body>
+</html>
